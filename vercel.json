@@ -2,7 +2,7 @@
   "redirects": [
 ],
   "rewrites": [
-   {       "source": "/standards",       "destination": "https://boost.space/product/boost-space-standardize-product-streamline-your-operations/"     },{       "source": "/cost",       "destination": "https://boost.space/pricing"     },{
+   {      
       "source": "/(.*)",
       "destination": "https://boost.space/$1"
  }
