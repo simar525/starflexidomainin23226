@@ -1,11 +1,9 @@
 {
-  "redirects": [
-],
-  "routes": [
-   {      
-      "src": "/(.*)",
-      "destination": "https://boost.space/$1"
- }
+  "redirects": [],
+  "rewrites": [
+    {      
+      "source": "/(.*)",
+      "destination": "https://boost.space/$1" 
+    }
   ]
 }
-    
