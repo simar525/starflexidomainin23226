@@ -1,8 +1,12 @@
 {
+  "redirects": [
+],
   "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "https://boost.space/$1"
- }
+   {       "source": "/cost",       "destination": "https://boost.space/pricing"     },{
+      "source": "/",
+      "destination": "/https://boost.space"
+ },
+
   ]
 }
+    
