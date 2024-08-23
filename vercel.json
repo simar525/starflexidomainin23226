@@ -3,7 +3,7 @@
 ],
   "routes": [
    {      
-      "source": "/(.*)",
+      "src": "/(.*)",
       "destination": "https://boost.space/$1"
  }
   ]
