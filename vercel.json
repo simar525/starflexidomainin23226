@@ -4,7 +4,7 @@
   "rewrites": [
    {      
       "source": "/(.*)",
-      "destination": "https://boost.space/$1"
+      "destination": "https://boost.space"
  }
   ]
 }
