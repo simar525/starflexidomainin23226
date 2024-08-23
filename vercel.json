@@ -3,9 +3,9 @@
 ],
   "rewrites": [
    {       "source": "/cost",       "destination": "https://boost.space/pricing"     },{
-      "source": "/",
-      "destination": "https://boost.space"
- },
+      "source": "/(.*)",
+      "destination": "https://boost.space/$"
+ }
 
   ]
 }
